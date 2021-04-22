@@ -10,7 +10,6 @@ Remote dir: `~/my-new-virus`
        For a purpose of this manual we assume that it is C:\repos\phpstorm-rsync-sh.
 
     1. Install Cygwin with Rsync
-
     Download Cygwin from https://cygwin.com/install.html. During selecting of packages make sure that rsync and openssh are chosen and pending for install.
 
     1. Create ssh keys unless you have got some. I worked only with keys not secured by password but may there is a solution for a password-protected keys also.
