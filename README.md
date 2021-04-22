@@ -31,4 +31,5 @@ Remote dir: `~/my-new-virus`
     1. Add a keybord shortcut - optional
     
 1. Linux 
+
    Skip Cygwin installation and follow other points for Windows. 
