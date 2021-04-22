@@ -4,10 +4,12 @@ How to deploy files using rsync instead of ftp in Intellij IDEs?
 1. Windows
     1. Clone this repository to a chosen local location.
        For a purpose of this manual we assume that it is C:\repos\phpstorm-rsync-sh.
+
     1. Install Cygwin with Rsync
-       Download Cygwin from https://cygwin.com/install.html. During selecting of packages make sure that cygwin and openssh are chosen and pending to install.
-    1. Make Phpstorm (or other JetBrain's IDE) external tool
-       * Push CTRL + ALT +S or simply click File -> Settings.
+       Download Cygwin from https://cygwin.com/install.html. During selecting of packages make sure that cygwin and openssh are chosen and pending for install.
+
+    3. Make Phpstorm (or other JetBrain's IDE) external tool
+       * Push CTRL + ALT + S or simply click File -> Settings.
        * Type "external tools" in a search field to narrow options.
        * Chose "External Tools" tab and click a plus sign on the right part of a displayed window. A new external tool dialog should appear. 
        * Name your external too as you want (e.g. "Deploy by Rsync")
