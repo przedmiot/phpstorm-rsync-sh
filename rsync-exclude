@@ -1,0 +1,6 @@
+.stfolder
+.stversions
+.idea
+.git
+.php_cs.cache
+.env
