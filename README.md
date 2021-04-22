@@ -1,5 +1,5 @@
 # phpstorm-rsync-sh
-How to deploy files using rsync instead of ftp in JetBrains IDEs?
+Using rsync instead of FTP is (extremely) more efficient way of deploying files in Phpstorm (and - probably - other IDEs from its family). Adventages are proportional to a quantity of files you need to sync. In a case of large projects it is definitely quicker way.
 
 Procedure described below will let you deploy local files to a remote server using rsync. It assumes that a remote dir **is a subdir of your home dir and its name equals the project name**. E.g.:
 Project name: `my-new-virus`
