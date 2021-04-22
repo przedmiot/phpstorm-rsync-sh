@@ -16,7 +16,7 @@ How to deploy files using rsync instead of ftp in Intellij IDEs?
        * Set Cygwin binaries dir as a working dir
        * Optional: check "Open console for tool output" and its both children-values if you want to see what is happening during rsyncing.   
          
-         ![screenshot](https://github.com/przedmiot/phpstorm-rsync-sh/screenshots/main/new_external_tool.png?raw=true)
+         ![screenshot](https://github.com/przedmiot/phpstorm-rsync-sh/blob/main/screenshots/new_external_tool.png)
        
     1. Add a keybord shortcut
     
