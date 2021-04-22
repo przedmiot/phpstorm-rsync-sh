@@ -1,5 +1,9 @@
 # phpstorm-rsync-sh
-How to deploy files using rsync instead of ftp in Intellij IDEs?
+How to deploy files using rsync instead of ftp in JetBrains IDEs?
+
+Procedure described below will let you deploy local files to a remote server using rsync. It assumes that a remote dir **is a subdir of your home dir and its name equals the project name**. E.g.:
+Project name: `my-new-virus`
+Remote dir: `~/my-new-virus`
 
 1. Windows
     1. Clone this repository to a chosen local location.
@@ -8,7 +12,10 @@ How to deploy files using rsync instead of ftp in Intellij IDEs?
     1. Install Cygwin with Rsync
        Download Cygwin from https://cygwin.com/install.html. During selecting of packages make sure that rsync and openssh are chosen and pending for install.
 
-    3. Make Phpstorm (or other JetBrain's IDE) external tool
+    1. Create ssh keys unless you have got some. I worked only with keys not secured by password but may there is a solution for a password-protected keys also.
+    First Gooogle result with a how-to: https://www.t3.gsic.titech.ac.jp/en/node/79 
+
+    1. Make Phpstorm (or other JetBrain's IDE) external tool
        * Push CTRL + ALT + S or simply click File -> Settings.
        * Type "external tools" in a search field to narrow options.
        * Chose "External Tools" tab and click a plus sign on the right part of a displayed window. A new external tool dialog should appear. 
@@ -22,4 +29,5 @@ How to deploy files using rsync instead of ftp in Intellij IDEs?
        
     1. Add a keybord shortcut
     
-1. Linux
+1. Linux 
+   Skip Cygwin installation and follow other points for Windows. 
