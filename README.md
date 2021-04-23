@@ -31,7 +31,8 @@ WARNING: my solution implies primate of local files over remote ones. The latter
         A new item in Tools -> External Tools should appear. Use it to push your files into remote destination. 
                 
     1. Add a keybord shortcut - optional
-    Find the tab "Keymap" in Phpstorm settings (CTRL + ALT + S) and select a favorite keyboard shortcut for a external tool you made.    
+    
+Find the tab "Keymap" in Phpstorm settings (CTRL + ALT + S) and select a favorite keyboard shortcut for a external tool you made.    
 
     1. Set up ingnored files editing rsync-exclude file (which is also a part of this repo). For example: it is - probably - not bead idea to exclude Phpstorm project files from syncing (and .idea dir is included as excluded ;) by default). 
     
