@@ -28,7 +28,9 @@ Remote dir: `~/my-new-virus`
 
         A new item in Tools -> External Tools should appear. Use it to push your files into remote destination. 
                 
-    1. Add a keybord shortcut - optional
+    1. Add a keybord shortcut - optional.
+
+    1. Set up ingnored files editing rsync-exclude file (which is also a part of this repo). For example: it is - probably - not bead idea to exclude Phpstorm project files from syncing (and .idea dir is included as excluded ;) by default). 
     
 1. Linux 
 
