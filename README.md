@@ -5,6 +5,8 @@ Procedure described below will let you deploy local files to a remote server usi
 Project name: `my-new-virus`
 Remote dir: `~/my-new-virus`
 
+WARNING: my solution implies primate of local files over remote ones. The latter will be deleted if they haven't local counterpart. So - be careful. There is no version control built into this solution. If you want change this behavior you can do it by changing rsync invocation params at rsync.sh.  
+
 1. Windows
     1. Clone this repository to a chosen local location.
        For a purpose of this manual we assume that it is C:\repos\phpstorm-rsync-sh.
@@ -29,6 +31,8 @@ Remote dir: `~/my-new-virus`
         A new item in Tools -> External Tools should appear. Use it to push your files into remote destination. 
                 
     1. Add a keybord shortcut - optional.
+    
+    Find the tab "Keymap" in Phpstorm settings (CTRL + ALT + S) and select a favorite keyboard shortcut for a external tool you made.    
 
     1. Set up ingnored files editing rsync-exclude file (which is also a part of this repo). For example: it is - probably - not bead idea to exclude Phpstorm project files from syncing (and .idea dir is included as excluded ;) by default). 
     
